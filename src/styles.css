@@ -1,1 +1,194 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    font-family: 'Century Gothic' !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #000;
+}
+
+.navbar-toggle {
+    background-color: #000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f7941c;
+    border-color: #f7941c;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3C7F84;
+    border-color: #3C7F84;
+}
+
+.text-muted {
+    color: #3C7F84 !important;
+}
+
+.form-control {
+    border: 1px solid #f7941c;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f7941c;
+    border-color: #ddd;
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background: #dcdcdc;
+    color: #000;
+    height: 100px;
+}
+
+
+footer a {
+    color: #ff881e;
+}
+
+.list-group-item.active {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: #3C7F84;
+    border-color: #3C7F84;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #ff881e;
+    background-color: #ff881e;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    
+    border-color: #ff881e #ff881e #fff;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #ff881e #ff881e #fff;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ff881e;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ff881e !important;
+}
+
+.card {
+    border: 1px solid #ff881e;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 576px;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        max-width: 700px;
+    }
+}
+
+
+@media (min-width: 992px) {
+   
+}
+
+@media (min-width: 1200px) {
+   
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+   
+}
+
+@media (max-width: 768px) {
+    .loggedInUser {
+        padding-top: 1.8rem !important;
+    }
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+    color: #f7941c;
+}
+
+
+a {
+    color: #333;   
+}
+
+a:hover {
+    color: #f7941c;
+}
+
+.bg-light {
+    background-color: #dcdcdc !important;
+}
+
+
+.sidebar-sticky {
+   
+    position: sticky;
+    top: 48px;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
